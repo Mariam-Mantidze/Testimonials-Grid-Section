@@ -128,3 +128,21 @@ main {
   background: #19202d;
   grid-column: 2 / 4;
 }
+
+@media screen and (max-width: 375px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 71px 24px;
+  }
+
+  .container h2 {
+    margin-top: 18px;
+  }
+  .container p {
+    margin-top: 40px;
+  }
+}
