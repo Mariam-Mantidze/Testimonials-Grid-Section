@@ -129,7 +129,7 @@ main {
   grid-column: 2 / 4;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1200px) {
   main {
     display: flex;
     flex-direction: column;
@@ -138,7 +138,25 @@ main {
     gap: 24px;
     padding: 71px 24px;
   }
+  .daniel {
+    order: 0;
+  }
+  .jonathan {
+    order: 1;
+  }
+  .jeanette {
+    order: 3;
+  }
+  .patrick {
+    order: 4;
+  }
+  .kira {
+    order: 5;
+  }
 
+  .container {
+    width: 100%;
+  }
   .container h2 {
     margin-top: 18px;
   }
